@@ -104,6 +104,8 @@ const DeckOfCards = () => {
             arrayImages.push(card.url_image)
         });
 
+        console.log(arrayImages)
+
         setSavedDeck({
             saved_cards: [...savedDeck.saved_cards,arrayImages]
         })
